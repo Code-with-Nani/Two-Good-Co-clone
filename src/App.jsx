@@ -3,6 +3,7 @@ import "./App.css";
 import Cards from "./components/Cards";
 import Home from "./components/Home";
 import LocomotiveScroll from "locomotive-scroll";
+import Products from "./components/Products";
 
 function App() {
   const container = useRef();
@@ -21,6 +22,7 @@ function App() {
     >
       <Home />
       <Cards />
+      <Products/>
     </div>
   );
 }
