@@ -11,7 +11,7 @@ const Home = () => {
       gsap.from("h1", {
         y: 40,
         opacity: 0,
-        delay: 0.5,
+        delay: 1,
         duration: 0.3,
         stagger: 0.1,
       });
